@@ -1,0 +1,31 @@
+table,tr,th{
+border: solid black 2px;
+border-collapse: collapse;
+text-align: center;
+text-justify: auto;
+}
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	
+	background-color: greenyellow;
+	text-decoration: none;
+	padding-left: 10px;
+
+}
+li{
+	float: left;
+	padding-left: 10px;
+	border: 1;
+	border-color: black;
+	border-style: ;
+
+}
+li a{
+
+}
+li a:hover{
+	color: palevioletred;
+}

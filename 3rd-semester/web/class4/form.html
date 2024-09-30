@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login form</title>
+</head>
+<body>
+
+<form method="post" action="form.php">
+<label for="username">Username: </label><br>
+	<input type="username" name="username" id="user"><br>
+	<label for="email">Email</label><br>
+	<input type="email" name="email" id="mail" placeholder="abc@x.y"><br>
+	<label for="password" >Password</label><br>
+
+	<input type="password" name="password" id="pass" required></br>
+	<label for="tel">Phone:</label><br>
+<input type="tel" name="phone" placeholder="+88011111111111"> <br>
+<input type="radio" name="gender">
+<label for="gender"> Female</label>
+<input type="radio" name="gender">
+<label for="gender"> Male</label><br>
+<label for="bday">Birthday</label><br>
+<input type="date" name="bday"><br>
+
+<label for="child">Children: </label>
+<input type="number" name="child" min="2" max="15" ><br>
+
+
+<label for="marital"> Marital Status</label>
+<select name="marital"> 
+
+<option value="">Married</option>
+<option value="">Unmarried</option>
+<option value="">Divorced</option>
+</select>
+
+<br>
+<label for="file">Upload cv :</label>
+<input type="file" name="file"><br>
+<input type="checkbox" name="checkbox">
+<span>I agree with your <a href="#" >kotha</a></span>
+
+<br>	
+
+<textarea cols="20" rows="10"> Comments</textarea><br>
+	<input type="submit" name="submit" id="submit">
+	<input type="reset" name="reset" id="rbtn">
+	
+</form>
+</body>
+</html>

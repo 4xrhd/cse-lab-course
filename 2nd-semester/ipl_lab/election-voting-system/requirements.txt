@@ -1,0 +1,3 @@
+gspread
+tabulate
+oauth2client

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login form</title>
+
+<style type="text/css">
+	body{
+		background-color: antiquewhite;
+	}
+	div{
+		background-color: lawngreen;
+	
+		margin-left: 250px;
+		margin-right: 250px;
+		margin-top: 100px;border-radius: 10px;
+		padding: 20px;
+
+	}
+	form{
+		padding: 20px;
+		border-radius: 10px;
+		border: 5px;
+	}
+	button{ 
+
+margin-left: 150px;
+text-size-adjust: ;
+text-align: center;
+border-radius: 5px;
+font-size: 16px;
+font-family: monospace;
+block-size: 30px;
+
+	 }
+</style>
+
+</head>
+<body>
+<div>
+	
+<form method="post" action="form.php">
+<label for="username">Username: </label><br>
+	<input type="username" name="username" id="user" placeholder="Enter username"><br>
+	<label for="password" >Password</label><br>
+
+	<input type="password" name="password" id="pass" required placeholder="password"></br> 
+<span><a href="#" >Forget Password</a></span>
+<span>New here ?<a href="form.html" > signup</a></span><br>
+<input type="checkbox" name="agree" required>
+<span>I agree with your <a href="#" >Terms and COndition </a></span>
+
+<br>	
+<!-- <input type="submit" name="submit" > -->
+
+<button formaction="login.php">login</button>
+</form>
+
+
+</div>
+	
+</body>
+</html>
