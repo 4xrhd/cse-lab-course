@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;   
+}
+.parent {
+    display: flex;
+    background-color: rosybrown;
+    width: 600px;
+    height: 400px;
+    margin: 50px auto; /* Centers horizontally and gives a top margin */
+    justify-content: center;
+    align-items: center; /* Centers items vertically inside the flex container */
+    padding: 150px;
+    border-radius: 10px;
+}
+.image{
+    
+/* margin-left: 90%; */
+margin-right: 90%;
+/* margin-top: 20px; */
+margin-bottom: 80px;
+    float: left;
+    width: 50%;
+    padding: 100%;
+    
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+h1{
+    color: aquamarine;
+}
+.cards{
+    float: left;
+   
+    display: flex;
+    gap: 10%;
+}
+ .card1 ,.card2, .card3{
+    background-color: rgb(92, 92, 215);
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    padding-left: 40px;
+}
+.card1 img{
+    width: 80%;
+    height: 50% ;
+   
+    
+
+}
